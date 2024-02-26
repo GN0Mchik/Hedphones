@@ -78,6 +78,10 @@ body {
   background-image: url(../resources/hedphones.png);
 }
 
+.project {
+  display: flex;
+}
+
 .project__model-white {
   margin-top: 70px;
   position: relative;
