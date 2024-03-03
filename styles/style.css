@@ -266,8 +266,11 @@ body {
   top: 39px;
 }
 
+.workout {
+  display: flex;
+}
+
 .workout__title {
-  margin: 0 auto;
   margin-top: 150px;
   margin-bottom: 82px;
   width: 676px;
