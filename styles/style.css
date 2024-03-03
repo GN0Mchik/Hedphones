@@ -3,10 +3,10 @@ html {
 }
 
 body {
+  margin: 0 auto;
   font-family: "Inter";
   font-style: normal;
   background: #000;
-  margin: 0 auto;
 }
 
 .container {
@@ -15,11 +15,11 @@ body {
 }
 
 .header__nav {
-  margin-top: 41px;
-  margin-bottom: 68px;
   display: flex;
   gap: 46px;
   justify-content: center;
+  margin-top: 41px;
+  margin-bottom: 68px;
 }
 
 .nav__link {
@@ -84,8 +84,8 @@ body {
 }
 
 .project__model-white {
-  margin-top: 67px;
   position: relative;
+  margin-top: 67px;
   width: 1150px;
   height: 644px;
   background-image: url(../resources/model-white.png);
@@ -117,6 +117,9 @@ body {
   position: absolute;
   top: 483px;
   left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 420px;
   height: 110px;
   color: #fff;
@@ -128,9 +131,6 @@ body {
   letter-spacing: -0.75px;
   text-transform: uppercase;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: all 0.5s ease;
 }
 
@@ -140,8 +140,8 @@ body {
 }
 
 .project__model-black {
-  margin-top: 80px;
   position: relative;
+  margin-top: 80px;
   width: 1150px;
   height: 644px;
   background-image: url(../resources/model-black.png);
@@ -158,9 +158,9 @@ body {
 
 .project__phone {
   display: flex;
+  justify-content: space-between;
   margin-top: 80px;
   margin-bottom: 149px;
-  justify-content: space-between;
 }
 
 .project__phone-text {
@@ -226,13 +226,13 @@ body {
   position: absolute;
   top: 190px;
   width: 560px;
-  text-align: center;
   color: #ff25c2;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
   line-height: 73.5%;
   letter-spacing: -6px;
+  text-align: center;
 }
 
 .app__text {
@@ -241,11 +241,11 @@ body {
   width: 671px;
   height: 90px;
   color: #fff;
-  text-align: center;
   font-size: 25px;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.75px;
+  text-align: center;
 }
 
 .app__text-indent {
@@ -254,19 +254,19 @@ body {
 }
 
 .workout {
-  margin-top: 150px;
   display: flex;
+  margin-top: 150px;
 }
 
 .workout__title {
   margin: 0 auto;
   width: 676px;
   color: #ff25c2;
-  text-align: center;
   font-size: 100px;
   font-weight: 700;
   line-height: 73.5%;
   letter-spacing: -6px;
+  text-align: center;
 }
 
 .grid {
@@ -277,10 +277,10 @@ body {
 }
 
 .workout__list {
-  margin-top: 82px;
   display: flex;
   gap: 80px;
   flex-direction: column;
+  margin-top: 82px;
 }
 
 .work {
@@ -293,21 +293,20 @@ body {
 .work__description {
   width: 507px;
   color: #fff;
-  text-align: center;
   font-size: 25px;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.75px;
+  text-align: center;
 }
 
 .technologists {
-  margin-top: 150px;
   display: flex;
   justify-content: center;
+  margin-top: 150px;
 }
 
 .technology {
-  border-radius: 10px;
   width: 1400px;
   height: 1040px;
   background: linear-gradient(
@@ -317,6 +316,7 @@ body {
     ),
     url(../resources/technology.png),
     rgb(87, 21, 21) -252.881px 0px / 132.187% 100% no-repeat;
+  border-radius: 10px;
 }
 
 .technology__text {
@@ -329,29 +329,31 @@ body {
   margin-top: 130px;
   width: 1150px;
   color: #fff;
-  text-align: center;
   font-size: 100px;
   font-weight: 700;
   line-height: 74.5%;
   letter-spacing: -6px;
+  text-align: center;
 }
 
 .technology__description {
   margin-top: 40px;
   width: 942px;
   color: #fff;
-  text-align: center;
   font-size: 45px;
   font-weight: 700;
   line-height: 90%;
   letter-spacing: -2.7px;
+  text-align: center;
 }
 
 .technology__buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
   width: 866px;
   height: 110px;
-  margin-top: 55px;
-  display: block;
   border-radius: 100px;
   border: 1px solid #fff;
   cursor: pointer;
@@ -360,9 +362,6 @@ body {
   font-weight: 400;
   line-height: normal;
   transition: all 0.5s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .technology__buy:hover {
@@ -375,16 +374,16 @@ body {
 }
 
 .gallery__content {
-  width: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+  width: 100%;
 }
 
 .gallery__title {
-  width: 1150px;
   margin-bottom: 96px;
+  width: 1150px;
   color: #fff;
   text-align: center;
   font-size: 100px;
@@ -394,19 +393,19 @@ body {
 }
 
 .gallery__slider {
+  position: relative;
   max-width: 1150px;
   width: 100%;
-  position: relative;
   height: 582px;
 }
 
 .gallery__slide {
-  opacity: 0;
-  height: 100%;
-  width: 100%;
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
   transition: all 0.7s ease;
 }
 
@@ -473,8 +472,8 @@ body {
 }
 
 .gallery__controls {
-  display: flex;
   position: absolute;
+  display: flex;
   bottom: 24px;
   left: calc(50% - 57px);
   gap: 19px;
@@ -507,15 +506,14 @@ body {
 }
 
 .footer__link {
-  margin-top: 68px;
   display: flex;
   gap: 17%;
   justify-content: center;
+  margin-top: 68px;
 }
 
 .footer__link_nav {
   color: #fff;
-  text-align: center;
   font-size: 60px;
   font-weight: 700;
   line-height: 73.5%;
@@ -523,6 +521,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   transition: all 0.3s;
+  text-align: center;
 }
 
 .footer__link_nav:hover {
@@ -530,17 +529,17 @@ body {
 }
 
 .footer__navigation {
-  margin-top: 200px;
   display: flex;
   gap: 46px;
   justify-content: center;
+  margin-top: 200px;
 }
 
 .footer__date {
-  margin: 81px 0 54px 0;
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  width: 100%;
+  margin: 81px 0 54px 0;
 }
 
 .footer__date > h2 {
