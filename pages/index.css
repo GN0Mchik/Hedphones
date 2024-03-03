@@ -1,0 +1,25 @@
+@import url(../styles/reset.css);
+
+@import url(../styles/fonts.css);
+
+@import url(../section/html/html.css);
+
+@import url(../section/page/page.css);
+
+@import url(../section/container/container.css);
+
+@import url(../section/header/header.css);
+
+@import url(../section/intro/intro.css);
+
+@import url(../section/project/project.css);
+
+@import url(../section/app/app.css);
+
+@import url(../section/workout/workout.css);
+
+@import url(../section/technologists/technologists.css);
+
+@import url(../section/gallery/gallery.css);
+
+@import url(../section/footer/footer.css);

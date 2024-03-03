@@ -1,0 +1,43 @@
+.footer__link {
+  display: flex;
+  gap: 17%;
+  justify-content: center;
+  margin-top: 68px;
+}
+
+.footer__link_nav {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73.5%;
+  letter-spacing: -3.6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.footer__link_nav:hover {
+  color: #ff25c2;
+}
+
+.footer__navigation {
+  display: flex;
+  gap: 46px;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.footer__date {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 81px 0 54px 0;
+}
+
+.footer__date > h2 {
+  color: #ff25c2;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+}

@@ -1,0 +1,10 @@
+body {
+  margin: 0 auto;
+  font-family: "Inter";
+  font-style: normal;
+  background: #000;
+}
+
+.body_fixed {
+  overflow: hidden;
+}

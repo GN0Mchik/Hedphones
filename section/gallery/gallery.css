@@ -1,0 +1,135 @@
+.gallery {
+  margin-top: 150px;
+}
+
+.gallery__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.gallery__title {
+  margin-bottom: 96px;
+  width: 1150px;
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 75%;
+  letter-spacing: -4px;
+}
+
+.gallery__slider {
+  position: relative;
+  max-width: 1150px;
+  width: 100%;
+  height: 582px;
+}
+
+.gallery__slide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+
+.gallery__slide_active {
+  opacity: 1;
+}
+
+.slide__box {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.slide__one {
+  background-image: url(../../resources/slide__one.png);
+}
+
+.slide__two {
+  background-image: url(../../resources/slide__two.png);
+}
+
+.slide__three {
+  background-image: url(../../resources/slide_three.png);
+}
+
+.slide__four {
+  background-image: url(../../resources/slide__four.png);
+}
+
+.slide__text {
+  color: #fff;
+  line-height: 30px;
+  font-size: 25px;
+  letter-spacing: -0.75px;
+  text-align: center;
+}
+
+.slide__text-one {
+  position: absolute;
+  bottom: 90px;
+  left: 337px;
+  width: 475px;
+}
+
+.slide__text-two {
+  position: absolute;
+  bottom: 90px;
+  left: 305px;
+  width: 541px;
+}
+
+.slide__text-three {
+  position: absolute;
+  bottom: 100px;
+  left: 298px;
+  width: 554px;
+}
+
+.slide__text-four {
+  position: absolute;
+  bottom: 90px;
+  left: 283px;
+  width: 584px;
+}
+
+.gallery__controls {
+  position: absolute;
+  display: flex;
+  bottom: 24px;
+  left: calc(50% - 57px);
+  gap: 19px;
+}
+
+.gallery__control-prev {
+  padding: 0px;
+  height: 47px;
+  border: none;
+  background: none;
+}
+
+.gallery__control-prev:hover {
+  opacity: 0.5;
+}
+
+.gallery__control-next {
+  padding: 0px;
+  height: 47px;
+  border: none;
+  background: none;
+}
+
+.gallery__control-next:hover {
+  opacity: 0.5;
+}
+
+.control__slide {
+  cursor: pointer;
+}
