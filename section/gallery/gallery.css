@@ -137,6 +137,7 @@
 @media (max-width: 960px) {
   .gallery__title {
     margin-bottom: 81px;
+    width: 100%;
   }
   .slide__text-one {
     left: 227.5px;
